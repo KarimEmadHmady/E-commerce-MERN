@@ -3,7 +3,7 @@ import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
-import userRouters from './router/userRoues.js'
+import userRouters from './router/userRoutes.js'
 
 // Utiles
 import connectDB from "./config/db.js";
@@ -24,4 +24,4 @@ app.use('/api/users' , userRouters) ;
 
 app.listen(port, () => console.log(`Server running on port: ${port}`));
 
-// end in 1:39:40s epsode 3
+// end in 1:50:50s epsode 3
